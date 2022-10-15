@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <title>MEDIUP</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <a href="#inicio"><img src="img/mediup logo.png" alt=""  style="height: 65px ;"></a>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE NOSOTROS</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.facebook.com/profile.php?id=100086308750779" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mediup_design/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2> Somos <span><img src="./img/mediup logo.png" alt="" style="height: 100px; "></span>, Desarrollo Web y Diseño Grafico</h2>
+                <p class="descripcion"> Social Media services </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/mediup fondo 1x1.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Nosotros</p>
+            <h2>Hola, Somos <span>MEDIUP</span> </h2>
+            <h3>Social Media Services</h3>
+            <p>Somos una empresa destinada a servicios para redes sociales de diseño grafico y desarrollo web.</p>
+            <p>Haremos que tus proyectos sean reales con creatividad y funcionalidad.</p>
+            <a href="https://wa.me/3364201969">WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Desarrollo de sitios web responsive, personalizados o con diseños propios. Funcionales como estaticos.</p>
+            </div>
+
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Wireframe</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>Desing</li>
+                </ul>
+                <p>Muestra de preview del sitios web, adaptables y funcional.</p>
+            </div>
+    
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Posicionamiento SEO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Meta</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lograremos que su pagina quede en lo mas alto de los motores de busqueda globales.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Alojamiento de Sitios</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Host</li>
+                    <li>Dominio</li>
+                </ul>
+                <p>Haremos que su sitio tenga un dominio propio y este subida a un host en linea.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Social</li>
+                    <li>Graphic</li>
+                    <li>Design</li>
+                </ul>
+                <p>Creacion de diseños totalmente personalizados, para redes sociales, sitios web o uso personal.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Comiunity Manager</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Social Media</li>
+                    <li>youtube</li>
+                    <li>Post</li>
+                </ul>
+                <p>Nos encargaremos de manejar tus redes sociales, con post, historias, etc.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">45%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Diseño Grafico</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Social Media</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Nuestros Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+            <img src="img/PORTAFOLIO 2.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño</h4>
+                    <p>Diseño grafico</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/mediup web.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto Mediup</h4>
+                    <p>Desarrollo web Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/portafolio DISEÑO.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño</h4>
+                    <p>Diseño grafico</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/portafolio cafe gold.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto cafegoold</h4>
+                    <p>Desarrollo Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/portafolio sn.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto SnActiva!</h4>
+                    <p>Desarrollo web Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/arcade portafolio.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño para artistas musicales</h4>
+                    <p>Diseño grafico</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/difuzor portafolio.jpg" alt="">
+                <div class="info">
+                    <h4>Diseño de albunes musicales</h4>
+                    <p>Diseño grafico</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4> Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4> Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/mediupdesign@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad" name="nombre">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad" name="email">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full" name="tema">
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados a Mediup - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+        <img src="img/mu logo.png" alt="" style="height: 100px;">
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
