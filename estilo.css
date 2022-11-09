@@ -164,7 +164,7 @@
         #sobremi .sobremi .titulo-seccion {
             font-size: 22px;
             text-transform: uppercase;
-            color: #111135;
+            color: #1b3511;
             text-decoration: underline;
             text-decoration-color: #d3d3d3;
             text-decoration-thickness: 5px;
@@ -208,7 +208,7 @@
         }
         
         #sobremi .sobremi a:hover {
-            background-color: #06ff4d;
+            background: linear-gradient(  #06ff4d, rgba(60, 25, 189, 0.842));
             color: #fff;
         }
         /* *********************/
@@ -289,7 +289,7 @@
         /* *********************/
         
         .contenedor-skills {
-            background: linear-gradient( #06ff4d, rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
+            background: linear-gradient( #06ff4d, rgba(60, 25, 189, 0.842)), url("img/fondo-skills.jpg");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
